@@ -142,9 +142,7 @@ def prepare_zillow(df):
 ##For later
 #train[['year']] = imputer.transform(train[['year']])
 #validate[['year']] = imputer.transform(validate[['year']])
-#test[['year']] = imputer.transform(test[['year']])      
-
-    df.head()
+#test[['year']] = imputer.transform(test[['year']])     
     
 
     return df
